@@ -1,4 +1,7 @@
+> 💡 **說明**：本專案之程式碼與文檔均由 **Antigravity** 輔助編寫。
+
 # 🍷 多元線性回歸分析報告：紅酒品質預測
+
 
 ### 📌 專案基本資訊
 * **學號**：`4112056032`
@@ -7,6 +10,7 @@
 * **分析架構**：CRISP-DM 流程標準
 * **資料來源**：[Kaggle Red Wine Quality Dataset (Cortez et al., 2009)](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/data)
 * **NotebookLM 專案連結**：[NotebookLM Project Link](https://notebooklm.google.com/notebook/c0a907e8-48c2-42bc-bb87-12a035d09221)
+* **GitHub 專案連結**：[GitHub Project Link](https://github.com/chhcgrrace/hw3.git)
 
 ---
 
