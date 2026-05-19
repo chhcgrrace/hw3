@@ -20,11 +20,11 @@
 
 * **核心程式碼與數據：**
   * `winequality-red.csv`：Kaggle 紅酒品質原始資料集（包含 1599 筆樣本，11 個理化特徵與 1 個品質目標變數）。
-  * `4112056032.py`：Python 迴歸分析與自動化特徵篩選主程式。
-  * `4112056032.ipynb`：包含完整 CRISP-DM 流程說明、程式碼執行紀錄與圖表嵌入的 Jupyter Notebook。
+  * `4112056032_hw3.py`：Python 迴歸分析與自動化特徵篩選主程式。
+  * `4112056032_hw3.ipynb`：包含完整 CRISP-DM 流程說明、程式碼執行紀錄與圖表嵌入的 Jupyter Notebook。
 * **數據分析報告：**
   * `4112056032.html`：整合完整分析、動態圖表與 Base64 嵌入圖片的網頁版專案報告（雙擊即可於瀏覽器開啟並可直接列印存為 PDF）。
-  * `4112056032_HW3多元線性回歸_紅酒品質預測報告(CRISP-DM).pdf`：已由 HTML 報告排版輸出之 PDF 專案報告檔案。
+  * `4112056032_HW3多元線性回歸報告_紅酒品質預測(CRISP-DM).pdf`：已由 HTML 報告排版輸出之 PDF 專案報告檔案。
 * **學術摘要與 AI 對話日誌：**
   * `NOTEBOOKLLM的摘要.txt`：使用 NotebookLM 整理之學術文獻摘要與不同機器學習模型比較。
   * `GPT聊天紀錄.pdf`：專案前期與 GPT 協作對話紀錄的 PDF 檔案。
@@ -234,7 +234,7 @@
 ## 🛠️ 十、本機執行與 PDF 報告編譯說明
 1. **執行主程式**：
    ```bash
-   python 4112056032.py
+   python 4112056032_hw3.py
    ```
    * 這將讀取 `winequality-red.csv` 資料集，執行反向淘汰，輸出 OLS 統計報告，並生成 `correlation_matrix.png`、`coefficient_plot.png`、`model_diagnostics.png`、`residuals_analysis.png` 與 `prediction_intervals.png`。
 2. **導出頂級 PDF 報告**：
