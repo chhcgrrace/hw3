@@ -14,6 +14,31 @@
 
 ---
 
+## 📂 專案資料夾結構 (Project Folder Structure)
+
+本專案的資料夾內包含以下重要檔案，其功能與結構說明如下：
+
+* **核心程式碼與數據：**
+  * `winequality-red.csv`：Kaggle 紅酒品質原始資料集（包含 1599 筆樣本，11 個理化特徵與 1 個品質目標變數）。
+  * `4112056032.py`：Python 迴歸分析與自動化特徵篩選主程式。
+  * `4112056032.ipynb`：包含完整 CRISP-DM 流程說明、程式碼執行紀錄與圖表嵌入的 Jupyter Notebook。
+* **數據分析報告：**
+  * `4112056032.html`：整合完整分析、動態圖表與 Base64 嵌入圖片的網頁版專案報告（雙擊即可於瀏覽器開啟並可直接列印存為 PDF）。
+  * `4112056032_紅酒品質預測報告(CRISP-DM).pdf`：已由 HTML 報告排版輸出之 PDF 專案報告檔案。
+* **學術摘要與 AI 對話日誌：**
+  * `NOTEBOOKLLM的摘要.txt`：使用 NotebookLM 整理之學術文獻摘要與不同機器學習模型比較。
+  * `GPT聊天紀錄.pdf`：專案前期與 GPT 協作對話紀錄的 PDF 檔案。
+  * `log.txt`：與 AI 助理 (Antigravity) 互動的完整文字對話日誌。
+  * `與antigravity的聊天紀錄.pdf`：將 `log.txt` 對話日誌重新轉換排版之 PDF 對話紀錄。
+* **分析可視化圖表 (自動生成)：**
+  * `correlation_matrix.png`：理化特徵相關性熱圖 (Heatmap)。
+  * `coefficient_plot.png`：標準化偏回歸係數與 95% 信賴區間圖。
+  * `prediction_intervals.png`：紅酒品質預測值與 95% 信賴區間 (CI) / 預測區間 (PI) 陰影圖。
+  * `model_diagnostics.png`：實際值 vs. 預測值與殘差 vs. 擬合值診斷圖。
+  * `residuals_analysis.png`：殘差分佈直方圖與 Normal Q-Q 機率圖。
+
+---
+
 ## 📊 一、Business Understanding (商業理解)
 
 **商業背景與痛點：**
